@@ -8,12 +8,10 @@ namespace DataModify
 {
     class Program
     {
-        static List<Data> m_Data = new List<Data>();
         static void Main(string[] args)
         {
             ModifyConnectorsystem();
             ModifyConnector();
-
         }
 
         //修改connectorsystem
