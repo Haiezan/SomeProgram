@@ -13,7 +13,7 @@ namespace TestDefect
         {
             List<double> m_Data = new List<double>();
 
-            string sFileFrom = @"F:\00Test_Temp\AA.FEA.txt";
+            string sFileFrom = @"F:\00Test_Temp\KJ\ssg2020\aa.FEA";
             string sFileTo = @"F:\00Test_Temp\AA.csv";
 
             FileStream fs = new FileStream(sFileFrom, FileMode.Open);
@@ -23,9 +23,9 @@ namespace TestDefect
             StreamWriter sw = new StreamWriter(fw);
 
             string line = string.Empty;
-
+            line = sr.ReadLine();
             //读取坐标数据
-            while (!(line = sr.ReadLine()).Contains("coord ="))
+            while (!line.Contains("coord"))
             {
                 if ((line = sr.ReadLine()) == null) break;
             }
@@ -39,10 +39,14 @@ namespace TestDefect
             }
 
             //输出坐标
-            for (int i = 0; i < m_Data.Count; i++)
+            int Num = m_Data.Count / 3;
+            for (int i = 0; i < Num; i++)
             {
+                sw.Write(i + 1 + ",");
                 sw.Write(m_Data[i] + ",");
-                if(i%3==2) sw.Write("\r\n");
+                sw.Write(m_Data[i + Num] + ",");
+                sw.Write(m_Data[i + 2 * Num] + ",");
+                sw.Write("\r\n");
             }
 
             sr.Close();
