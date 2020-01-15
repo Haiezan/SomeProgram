@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModify", "DataModify\Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingMapsSample", "BingMapsSample\BingMapsSample.csproj", "{C724F25D-6F77-48C0-A791-28E34E6B0F0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDefect", "TestDefect\TestDefect.csproj", "{AE37441D-37CC-419A-866C-0DAAD0CE1D6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C724F25D-6F77-48C0-A791-28E34E6B0F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C724F25D-6F77-48C0-A791-28E34E6B0F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C724F25D-6F77-48C0-A791-28E34E6B0F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE37441D-37CC-419A-866C-0DAAD0CE1D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE37441D-37CC-419A-866C-0DAAD0CE1D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE37441D-37CC-419A-866C-0DAAD0CE1D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE37441D-37CC-419A-866C-0DAAD0CE1D6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
