@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DllDemo2", "DllDemo2\DllDemo2.vcxproj", "{D87E99F9-A1DC-4BA4-A415-50FB6BDB0AB2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InvokeDll", "InvokeDll\InvokeDll.vcxproj", "{D066E7D6-1FA6-44F0-9201-E4FAA85766BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D87E99F9-A1DC-4BA4-A415-50FB6BDB0AB2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D87E99F9-A1DC-4BA4-A415-50FB6BDB0AB2}.Debug|Win32.Build.0 = Debug|Win32
+		{D87E99F9-A1DC-4BA4-A415-50FB6BDB0AB2}.Release|Win32.ActiveCfg = Release|Win32
+		{D87E99F9-A1DC-4BA4-A415-50FB6BDB0AB2}.Release|Win32.Build.0 = Release|Win32
+		{D066E7D6-1FA6-44F0-9201-E4FAA85766BA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D066E7D6-1FA6-44F0-9201-E4FAA85766BA}.Debug|Win32.Build.0 = Debug|Win32
+		{D066E7D6-1FA6-44F0-9201-E4FAA85766BA}.Release|Win32.ActiveCfg = Release|Win32
+		{D066E7D6-1FA6-44F0-9201-E4FAA85766BA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

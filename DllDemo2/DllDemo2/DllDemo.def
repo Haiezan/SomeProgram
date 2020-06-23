@@ -1,0 +1,6 @@
+LIBRARY DllDemo
+ 
+EXPORTS
+add
+subtract
+multiple
