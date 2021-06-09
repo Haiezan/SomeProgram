@@ -20,3 +20,8 @@ DllDemoAPI int multiple(int a, int b)
 {
 	return a*b;
 }
+
+DllDemoAPI void many(vector<float> x)
+{
+	float a=x[0];
+}
